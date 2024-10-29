@@ -20,9 +20,13 @@
       }
       .visuals {
         width: 380px;
+        object-fit: cover;
       }
-      .parent img:hover {
-        zoom: 1.2;
+      .visuals:hover {
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        transition-property: transform;
+        transform: scale(1.2);
       }
       .logo {
         color: rgb(255, 70, 85);
@@ -53,14 +57,11 @@
     <body>
       <aside>
         <span class="header">THE LATEST<br><br></span>
-        <div class="parent">
-          <img class="visuals" src="1.png" alt:"A Photo Of Sean John Combs (P. Diddy)">
-          <br>
-        </div>
+        <img class="visuals" src="1.png" alt:"A Photo Of Sean John Combs (P. Diddy)">
         <span class="logo">PDD NEWS     </span>
         <span class="border">|     </span>
-        <span class="date">29/10/2024<br></span>
-        <span class="title">P DIDDY: </span>
+        <span class="date">29/10/2024</span>
+        <span class="title">P. DIDDY: </span>
       </aside>
     </body>
   </html>
