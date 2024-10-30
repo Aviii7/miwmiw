@@ -38,14 +38,6 @@
         box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.5);
         border-radius: 10px;
       }
-      .sub-parent {
-        width: 400px;
-        height: 225.3px;
-        overflow: hidden;
-        position: relative;
-        cursor: pointer;
-        border-radius: 0px;
-      }
       .child {
         height: 100%;
         width: 100%;
@@ -54,7 +46,7 @@
         transition-timing-function: ease-in-out;
         transition-delay: 0s;
       }
-      .parent:hover .child, .sub-parent:hover .child {
+      .parent:hover .child {
         transform: scale(1.125);
       }
       .logo {
@@ -157,13 +149,6 @@
       </aside>
       <aside class="right">
         <span class="header" style="color: rgb(255, 255, 255); text-align: center">RECOMMENDATIONS</span>
-        <div class="visuals">
-          <div class="sub-parent">
-            <video class="child" autoplay loop mute>
-              <source style="width: 400px; height: 300px" src="4.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
       </aside>
     </body>
   </html>
