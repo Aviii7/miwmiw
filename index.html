@@ -38,16 +38,6 @@
         box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.5);
         border-radius: 10px;
       }
-      .sub-parent {
-        width: 380px;
-        height: 720.6px;
-        overflow: hidden;
-        position: relative;
-        cursor: pointer;
-        box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
-        align: center;
-      }
       .child {
         height: 100%;
         width: 100%;
@@ -56,7 +46,7 @@
         transition-timing-function: ease-in-out;
         transition-delay: 0s;
       }
-      .parent:hover .child, .sub-parent:hover .child {
+      .parent:hover .child {
         transform: scale(1.125);
       }
       .logo {
@@ -158,13 +148,6 @@
         <p></p>
       </aside>
       <aside class="right">
-        <div class="visuals">
-          <div class="sub-parent">
-            <video class="child" autoplay="true" muted loop>
-              <source src="4.mp4" type="video/mp4">
-            </video>
-          </div>
-        </div>
       </aside>
     </body>
   </html>
