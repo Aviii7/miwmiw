@@ -75,7 +75,17 @@
         font-size: 22px;
         letter-spacing: 0.5px;
       }
-      .title:hover, mark:hover { 
+      mark:hover { 
+        color: rgb(255, 70, 85);
+        background-color: transparent;
+        transition-duration: 0.3s;
+      }
+      .title:hover {
+        mark {
+          color: rgb(255, 70, 85);
+          background-color: transparent;
+          transition-duration: 0.3s;
+        }
         color: rgb(255, 70, 85);
         background-color: transparent;
         transition-duration: 0.3s;
@@ -162,6 +172,7 @@
       </aside>
       <aside class="right">
         <center class="header" style="color: rgb(255, 255, 255)">RECOMMENDATIONS</center>
+        <p></p>
         <div class="visuals">
           <div class="parent">
             <center>
