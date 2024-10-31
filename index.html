@@ -6,8 +6,17 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" type="text/css" href="style.css">
       <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+      }
+      .container {
+        min-height: 100%;
+        position: relative;
+      }
       aside {
-        margin-bottom: 240px;
+        padding-bottom: 240px;
       }
       aside.left {
         width: 20%;
@@ -135,13 +144,11 @@
       }
       footer {
         height: 240px;
+        width: 100%;
         background-color: rgb(15, 25, 35);
-        position: relative;
+        position: absolute;
         color: rgb(255, 255, 255);
-        top: 0;
-        bottom: 100%;
-        left: 0;
-        right: 0;
+        bottom: 0;
         padding-top: 40px;
       }
       .footer-info {
@@ -154,7 +161,7 @@
       }
       </style>
     </head>
-    <body>
+    <body class="container">
       <aside class="left">
         <span class="header">THE LATEST<br><br></span>
         <div class="visuals">
