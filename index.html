@@ -132,9 +132,21 @@
       }
       footer {
         height: 240px;
-        float: left;
         background-color: rgb(15, 25, 35);
-        clear: both;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-top: 40px
+      }
+      .footer-info {
+        text-align: center;
+        align-items: center;
+      }
+      footer .advertisements:hover, footer span .description:hover {
+        color: rgb(255, 70, 85);
+        transition-duration: 0.3s;
       }
       </style>
     </head>
@@ -163,7 +175,7 @@
               <img class="child" src="2.png" alt="A Photo Of Beyoncé Giselle Knowles (Queen Bee)" title="Click for more information"/>
             </a>
           </div>
-        </div>
+        </div> 
         <p></p>
         <span class="logo">PDD NEWS</span>
         <span class="border">|</span>
@@ -238,7 +250,13 @@
         </a>
       </aside>
       <footer>
-        
+        <div class="footer-info">
+          <p class="advertisements" style="font-size: 40px; letter-spacing: 1px">
+            PDD NEWS
+          </p>
+          <span class="description" style="color: rgb(255, 255, 255)">PDD News is a news article website focused on the controversies between the famous<br>celebrities, Sean John Combs (P. Diddy), Beyoncé Giselle Knowles, and Michael Joseph Jackson.</span>
+          <p class="description" style="color: rgb(255, 255, 255)">Copyright &copy;2024 <a href="#">PDD NEWS</a> </p>
+        </div>
       </footer>
     </body>
   </html>
